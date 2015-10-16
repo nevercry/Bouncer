@@ -14,6 +14,7 @@
 		4AC7BC021BC988D10001BAE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC7BC001BC988D10001BAE0 /* LaunchScreen.storyboard */; };
 		4AC7BC0D1BC988D10001BAE0 /* BouncerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC7BC0C1BC988D10001BAE0 /* BouncerTests.swift */; };
 		4AC7BC181BC988D10001BAE0 /* BouncerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC7BC171BC988D10001BAE0 /* BouncerUITests.swift */; };
+		4AC7BC281BC98AA50001BAE0 /* BouncerBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC7BC271BC98AA50001BAE0 /* BouncerBehavior.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4AC7BC131BC988D10001BAE0 /* BouncerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BouncerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AC7BC171BC988D10001BAE0 /* BouncerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncerUITests.swift; sourceTree = "<group>"; };
 		4AC7BC191BC988D10001BAE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AC7BC271BC98AA50001BAE0 /* BouncerBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BouncerBehavior.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		4AC7BBF61BC988D00001BAE0 /* Bouncer */ = {
 			isa = PBXGroup;
 			children = (
+				4AC7BC271BC98AA50001BAE0 /* BouncerBehavior.swift */,
 				4AC7BBF71BC988D00001BAE0 /* AppDelegate.swift */,
 				4AC7BBF91BC988D10001BAE0 /* ViewController.swift */,
 				4AC7BBFB1BC988D10001BAE0 /* Main.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				4AC7BBFA1BC988D10001BAE0 /* ViewController.swift in Sources */,
 				4AC7BBF81BC988D00001BAE0 /* AppDelegate.swift in Sources */,
+				4AC7BC281BC98AA50001BAE0 /* BouncerBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +490,7 @@
 				4AC7BC1E1BC988D10001BAE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4AC7BC1F1BC988D10001BAE0 /* Build configuration list for PBXNativeTarget "BouncerTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +499,7 @@
 				4AC7BC211BC988D10001BAE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4AC7BC221BC988D10001BAE0 /* Build configuration list for PBXNativeTarget "BouncerUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +508,7 @@
 				4AC7BC241BC988D10001BAE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
