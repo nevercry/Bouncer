@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4ABF41F11BD1558600E836DC /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4ABF41F01BD1558600E836DC /* Settings.bundle */; settings = {ASSET_TAGS = (); }; };
 		4AC7BBF81BC988D00001BAE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC7BBF71BC988D00001BAE0 /* AppDelegate.swift */; };
 		4AC7BBFA1BC988D10001BAE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC7BBF91BC988D10001BAE0 /* ViewController.swift */; };
 		4AC7BBFD1BC988D10001BAE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC7BBFB1BC988D10001BAE0 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4ABF41F01BD1558600E836DC /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		4AC7BBF41BC988D00001BAE0 /* Bouncer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bouncer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AC7BBF71BC988D00001BAE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AC7BBF91BC988D10001BAE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				4AC7BBFE1BC988D10001BAE0 /* Assets.xcassets */,
 				4AC7BC001BC988D10001BAE0 /* LaunchScreen.storyboard */,
 				4AC7BC031BC988D10001BAE0 /* Info.plist */,
+				4ABF41F01BD1558600E836DC /* Settings.bundle */,
 			);
 			path = Bouncer;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ABF41F11BD1558600E836DC /* Settings.bundle in Resources */,
 				4AC7BC021BC988D10001BAE0 /* LaunchScreen.storyboard in Resources */,
 				4AC7BBFF1BC988D10001BAE0 /* Assets.xcassets in Resources */,
 				4AC7BBFD1BC988D10001BAE0 /* Main.storyboard in Resources */,
